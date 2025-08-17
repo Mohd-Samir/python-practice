@@ -1,3 +1,5 @@
+####SYNTAX:expression for item in iterable if condition
+
 lst = ["science","maths", "social","hindi","english","kannada"]
 # print(lst)
 # print(type(lst))

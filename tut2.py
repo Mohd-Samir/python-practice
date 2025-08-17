@@ -4,7 +4,7 @@ mystr = "Mohammed Sameer"
 # print(mystr[0:9])  ##here 0 will be included but  n '9' will be excluded meaning only till 8 it gets printed.
 # print(mystr[9])
 
-print(len(mystr))
+# print(len(mystr))
 #print(mystr[0:50])
 
 

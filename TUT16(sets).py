@@ -58,4 +58,4 @@ cities2 = {"chicago","delhi","columbia","denver","tokyo"}
 
 cities1 = {"madrid","columbia","berlin","tokyo","denver"}   
 cities2 = {"chicago","delhi"}
-print(cities1.isdisjoint(cities2))   
+print(cities1.isdisjoint(cities2))     #output:True

@@ -15,9 +15,9 @@
 # b = int(input("Enter the value of 2nd no."))
 # c = int(input("Enter the value of 3rd no."))
 
-# if(a>b & a>c):
+# if(a>=b & a>=c):
 #     print("greatest is \'a':",a)
-# elif(b>a & b>c):
+# elif(b>=a & b>=c):
 #     print("greatest is \'b':",b)
 # else:
 #     print("greatest is \'c':",c)
@@ -27,31 +27,45 @@
 
 ###Nested if statement
 
-# num = 20
+# num = -0.5
 # if(num < 0):
-#     print("Number is negative")
+#     print("The number is negative")
 # elif(num > 0):
-#     if(num <= 10):
-#         print("Number is between 1-10")
-#     elif(num > 10 & num <= 20):
-#         print("Number is between 1-20")
-#         if(num == 20):
-#             print("Number is equal to 20")
+#     print("The number is positive")
+#     if(num > 0 and num <= 10):
+#         print("The number is between 1-10")
+#     elif(num > 10 and num <= 20):
+#         print("number is between 11-20")
+#     elif(num > 20):
+#         print("The number is greater than 20")
 #     else:
-#         print("Number is greater than 20")
-# else:
-#     print("Number is negative")
+#         print("The number is negative")
+
+
             
+# person = int(input("What is your age: "))
+# print("My age is: ",person)  
+# license_status = input("what is the status of the license (YES/NO): ")
+# x = "have license"
+# y = "doesn't have license"  
+# if(person >= 18):
+#     print("age of the person is greater than 18")
+#     if(person >= 18 and license_status == "YES"):
+#         print("you can drive")
+#     elif(person >= 18 and license_status == "NO"):
+#         print("you need to buy license and then you can drive")
+# else:
+#     print("you can't drive")
+    
+    
 
     
         ##example program if else
 
 import time
 current_hour =int(time.strftime("%H"))
-
-timestamp =time.strftime("%H:%M:%S")
-print(timestamp)
-
+timezone = time.strftime("%H:%M:%S")
+print(timezone)
 x = current_hour
 if(0 <= x < 12):
     print("Good Morning")

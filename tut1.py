@@ -1,8 +1,12 @@
+# var1 = "100"
+# var2 = "300"
+# var4 = 200
+
 # print(var2 + var1)
 
-#print(100*(var2 + var4))
+# print(100*(int(var2) + var4))
 
-#print(int(var2) + int(var4))    #directly we can't add var2 and var4 because we assigned them in str format
+# print(int(var2) + (var4))    #directly we can't add var2 and var4 because we assigned them in str format
                                   #so first we need to convert in int datatype then we can add them....    
 
 # print(10*"SAM\n" )
@@ -17,9 +21,13 @@
 #c = a + b
 #print("the sum is",c)
 
-# num1 = (input("enter the number"))
-# print("the no. entered is",int(num1) * 10)
+# num1 = (input("enter the number: "))
+# print("the no. entered is",int(num1) * 100)
 
+# x = int(input("Enter the first number(X): "))
+# y = int(input("Enter the second number(Y): "))
+# sum = x + y
+# print("The sum of X and Y is: ",sum)
 
 
 ##-------------------------------------------------------------------------------
@@ -38,9 +46,9 @@
 a = "!!!sameer!!!!!!"
 # print(a.replace(a[4] , "A"))
 # print(a.rstrip("!"))
-print(a.center(50))
-print(len(a))
-print(len(a.center(50)))
+# print(a.center(50))
+# print(len(a))
+# print(len(a.center(75)))
 
 ####Boolean
 
