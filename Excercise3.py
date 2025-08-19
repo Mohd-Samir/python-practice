@@ -7,6 +7,7 @@ question=[{"question": "When did RCB win its first title?", "options": ["2020", 
 ]
 
 for values in question:
+    print(question("question")
     values["answer"]
     
 choice = int(input("Choose one of four options(1-4): "))
